@@ -194,3 +194,6 @@ C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\obj\Debug\net8.0\refint\S
 C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\obj\Debug\net8.0\SIGU_Backend.pdb
 C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\obj\Debug\net8.0\SIGU_Backend.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\obj\Debug\net8.0\ref\SIGU_Backend.dll
+C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\obj\Debug\net8.0\SIGU_Backend.sourcelink.json
+C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Lenovo\source\repos\SIGU_Backend\SIGU_Backend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

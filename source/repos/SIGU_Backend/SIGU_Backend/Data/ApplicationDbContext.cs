@@ -13,6 +13,7 @@ namespace SIGU_Backend.Data
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Programa> Programas { get; set; }
         public DbSet<Materia> Materias { get; set; }
         public DbSet<Periodo> Periodos { get; set; }
         public DbSet<Grupo> Grupos { get; set; }
