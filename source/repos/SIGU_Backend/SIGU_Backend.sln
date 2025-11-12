@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGU_Backend", "SIGU_Backend\SIGU_Backend.csproj", "{8C1B7132-757C-4137-AE8C-8BF4256541C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting", "Texting\Texting.csproj", "{BC9D62F1-5016-405E-8C18-2E9B67D44B44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C1B7132-757C-4137-AE8C-8BF4256541C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B7132-757C-4137-AE8C-8BF4256541C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B7132-757C-4137-AE8C-8BF4256541C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B7132-757C-4137-AE8C-8BF4256541C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9D62F1-5016-405E-8C18-2E9B67D44B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9D62F1-5016-405E-8C18-2E9B67D44B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9D62F1-5016-405E-8C18-2E9B67D44B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9D62F1-5016-405E-8C18-2E9B67D44B44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E40CAC40-895D-4BD2-9D23-185155233C9D}
+	EndGlobalSection
+EndGlobal
