@@ -8,4 +8,6 @@ public class Nomina
     public decimal SalarioBase { get; set; }
     public decimal Deducciones { get; set; }
     public decimal Neto { get; set; }
+    // Ejemplo de cambio: agregar campo para tipo de contrato
+    public string TipoContrato { get; set; } = string.Empty;
 }
