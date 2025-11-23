@@ -595,4 +595,33 @@ apiGroup.MapDelete("/detalles-matricula/{id}", async (int id, ApplicationDbConte
 .Produces(StatusCodes.Status204NoContent)
 .Produces(StatusCodes.Status404NotFound);
 
+// --- ENDPOINTS DE PRERREQUISITOS ---
+app.MapGet("/api/prerrequisitos", async (ApplicationDbContext db) =>
+    await db.Prerrequisitos
+        .Include(p => p.Materia)
+        .Include(p => p.MateriaRequisito)
+        .ToListAsync())
+    .WithName("GetPrerrequisitos")
+    .WithTags("Prerrequisitos");
+
+app.MapPost("/api/prerrequisitos", async (Prerrequisito prerrequisito, ApplicationDbContext db) =>
+{
+    db.Prerrequisitos.Add(prerrequisito);
+    await db.SaveChangesAsync();
+    return Results.Created($"/api/prerrequisitos/{prerrequisito.Id}", prerrequisito);
+})
+    .WithName("CreatePrerrequisito")
+    .WithTags("Prerrequisitos");
+
+app.MapDelete("/api/prerrequisitos/{id}", async (int id, ApplicationDbContext db) =>
+{
+    var p = await db.Prerrequisitos.FindAsync(id);
+    if (p is null) return Results.NotFound();
+    db.Prerrequisitos.Remove(p);
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+})
+    .WithName("DeletePrerrequisito")
+    .WithTags("Prerrequisitos");
+
 app.Run();
